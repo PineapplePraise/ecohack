@@ -11,7 +11,7 @@ google.charts.load('current', {
       ['Brazil', 400],
       ['Canada', 500],
       ['France', 600],
-      ['RU', 700]
+      ['Russia', 700]
     ]);
 
     var options = {};
