@@ -49,6 +49,13 @@ var species = [
             "country": "India",
             "population": 135000
         }
+    ],
+    "img":"https://files.worldwildlife.org/wwfcmsprod/images/Mountain_Gorilla_Silverback_WW22557/hero_small/4vzzw2piv9_Mountain_Gorilla_Silverback_WW22557.jpg",
+    "info":[
+
+    ],
+    "donate":[
+
     ]
   },
   {
@@ -59,6 +66,13 @@ var species = [
             "population": 200
         }
 
+    ],
+    "img":"https://files.worldwildlife.org/wwfcmsprod/images/Mountain_Gorilla_Silverback_WW22557/hero_small/4vzzw2piv9_Mountain_Gorilla_Silverback_WW22557.jpg",
+    "info":[
+        
+    ],
+    "donate":[
+
     ]
   },
   {
@@ -68,6 +82,13 @@ var species = [
             "country": "Costa Rica",
             "population": 550000
         }
+    ],
+    "img":"https://files.worldwildlife.org/wwfcmsprod/images/Mountain_Gorilla_Silverback_WW22557/hero_small/4vzzw2piv9_Mountain_Gorilla_Silverback_WW22557.jpg",
+    "info":[
+        
+    ],
+    "donate":[
+
     ]
   },
   {
@@ -78,8 +99,16 @@ var species = [
             // Congo/Congo (Democratic Republic of the)/Democratic Republic of the Congo doesn't work
             "population": 1000
         }
+    ],
+    "img":"https://files.worldwildlife.org/wwfcmsprod/images/Mountain_Gorilla_Silverback_WW22557/hero_small/4vzzw2piv9_Mountain_Gorilla_Silverback_WW22557.jpg",
+    "info":[
+        
+    ],
+    "donate":[
+
     ]
-  }
+  },
+  
 ]
 
 document.getElementById("list").innerHTML = "";
