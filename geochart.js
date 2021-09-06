@@ -342,7 +342,7 @@ google.charts.load('current', {
     var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
     console.log('hi');
 	// document.getElementById("info").innerHTML = "Research links \n" + species[animal].info;
-    document.getElementById("info").innerHTML = "<img src='" + species[animal].img + "' style='width:30%'> <br>";
+    document.getElementById("info").innerHTML = "<img src='" + species[animal].img + "' style='width:50%'> <br>";
     document.getElementById("info").innerHTML += "Research links: <br>";
     for (var i=0; i<species[animal].info.length; i++) {
         document.getElementById("info").innerHTML += "<a href=" + species[animal].info[i] + ">" + species[animal].info[i] + "</a><br>";
