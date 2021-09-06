@@ -1,0 +1,39 @@
+{
+    "rhinos": [
+      {
+        "animal": "rhinos",
+        "countries": [
+            {
+                "country": "South Africa",
+                "population": 16000
+            },
+            {
+                "country": "Zimbabwe",
+                "population": 1000
+            },
+            {
+                "country": "Kenya",
+                "population": 1258
+            }
+        ]
+      },
+      {
+        "animal": "example 2",
+        "countries": [
+            {
+                "country": "United States",
+                "population": 400
+            },
+            {
+                "country": "Canada",
+                "population": 500
+            },
+            {
+                "country": "Mexico",
+                "population": 1000
+            }
+        ]
+      }
+      
+    ]
+}
