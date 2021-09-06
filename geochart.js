@@ -127,7 +127,7 @@ var species = [
             "population": 200
         },
     ],
-    "img":"",
+    "img":"https://www.thoughtco.com/thmb/q4t3OQkJIwiyTHnV4Pve34f4Ygo=/2250x1500/filters:fill(auto,1)/167003501-56a0089e5f9b58eba4ae8f93.jpg",
     "info":[
         "https://www.worldwildlife.org/species/asian-elephant",
         "https://www.britannica.com/animal/Asian-elephant",
