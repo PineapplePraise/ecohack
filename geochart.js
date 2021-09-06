@@ -143,28 +143,61 @@ var species = [
   {
     "animal": "Snow Leopard",
     "countries": [
-        {
-            "country": "Malaysia",
-            "population": 200
-        },
-        {
-            "country": "Malaysia",
-            "population": 200
-        }
+		{
+			"country": "China",
+			"population": 2100
+		},
+		{
+			"country": "India",
+			"population": 200
+		},
+		{
+			"country": "Kazakhstan",
+			"population": 200
+		},
+		{
+			"country": "Kyrgyzstan",
+			"population": 200
+		},
+		{
+			"country": "Bhutan",
+			"population": 150
 
-    ],
-    "img":"https://i.guim.co.uk/img/media/c356ea76561ab0e0631ad7b532dc4ba81e66fef7/0_146_5131_3079/master/5131.jpg?width=620&quality=85&auto=format&fit=max&s=231fcd81b3c3cfa9922f4998c7a01a92",
-    "info":[
-        "https://en.wikipedia.org/wiki/Snow_leopard",
-        "https://www.worldwildlife.org/species/snow-leopard",
-        "https://www.nationalgeographic.com/animals/mammals/facts/snow-leopard"
-    ],
-    "donate":[
-        "https://snowleopard.org/",
-        "https://gifts.worldwildlife.org/gift-center/gifts/species-adoptions/snow-leopard.aspx"
-    ]
-  },
-  {
+		},
+		{
+			"country": "Afghanistan",
+			"population": 150
+		},
+		{
+			"country": "Mongolia",
+			"population": 550
+		},
+		{
+			"country": "Nepal",
+			"population": 350
+		},
+		{
+			"country": "Pakistan",
+			"population": 300
+		},
+		{
+			"country": "Russia",
+			"population": 200
+		}
+
+	],
+	"img":"https://i.guim.co.uk/img/media/c356ea76561ab0e0631ad7b532dc4ba81e66fef7/0_146_5131_3079/master/5131.jpg?width=620&quality=85&auto=format&fit=max&s=231fcd81b3c3cfa9922f4998c7a01a92",
+	"info":[
+		"https://en.wikipedia.org/wiki/Snow_leopard",
+		"https://www.worldwildlife.org/species/snow-leopard",
+		"https://www.nationalgeographic.com/animals/mammals/facts/snow-leopard",
+	],
+	"donate":[
+		"https://snowleopard.org/",
+		"https://gifts.w300dwildlife.org/gift-center/gifts/species-adoptions/snow-leopard.aspx"
+	]
+  	},
+    {
     "animal": "Saola",
     "countries": [
         {
@@ -180,122 +213,57 @@ var species = [
         
         
     ],
-    "donate":[
-        "https://www.savethesaola.org/",
+	"donate":[
+		"https://www.savethesaola.org/",
 
-    ]
-  },
-  {
-    "animal": "Malayan Tiger",
-    "countries": [
-        {
-            "country": "Malaysia",
-            "population": 200
-        }
+	]
+    }, 
+	{
+		"animal": "Malayan Tiger",
+		"countries": [
+			{
+				"country": "Malaysia",
+				"population": 200
+			}
 
-    ],
-    "img":"https://s28164.pcdn.co/files/Berani5.jpg",
-    "info":[
-        "https://en.wikipedia.org/wiki/Malayan_tiger",
-        "https://www.britannica.com/animal/Malayan-tiger",
-        
-        
-    ],
-    "donate":[
-        "https://www.globalgiving.org/projects/protect-the-malayan-tiger-and-restore-its-habitat/donate/",
-        "https://www.wwf.org.my/how_you_can_help/donate_now/save_our_malayan_tigers/"
+		],
+		"img":"https://s28164.pcdn.co/files/Berani5.jpg",
+		"info":[
+			"https://en.wikipedia.org/wiki/Malayan_tiger",
+			"https://www.britannica.com/animal/Malayan-tiger",
+			
+			
+		],
+		"donate":[
+			"https://www.globalgiving.org/projects/protect-the-malayan-tiger-and-restore-its-habitat/donate/",
+			"https://www.wwf.org.my/how_you_can_help/donate_now/save_our_malayan_tigers/"
 
-    ]
-  },
-  {
-    "animal": "Malayan Tiger",
-    "countries": [
-        {
-            "country": "Malaysia",
-            "population": 200
-        }
+		]
+	},
 
-    ],
-    "img":"https://s28164.pcdn.co/files/Berani5.jpg",
-    "info":[
-        "https://en.wikipedia.org/wiki/Malayan_tiger",
-        "https://www.britannica.com/animal/Malayan-tiger",
-        
-        
-    ],
-    "donate":[
-        "https://www.globalgiving.org/projects/protect-the-malayan-tiger-and-restore-its-habitat/donate/",
-        "https://www.wwf.org.my/how_you_can_help/donate_now/save_our_malayan_tigers/"
-
-    ]
-  },
-  {
-    "animal": "Malayan Tiger",
-    "countries": [
-        {
-            "country": "Malaysia",
-            "population": 200
-        }
-
-    ],
-    "img":"https://s28164.pcdn.co/files/Berani5.jpg",
-    "info":[
-        "https://en.wikipedia.org/wiki/Malayan_tiger",
-        "https://www.britannica.com/animal/Malayan-tiger",
-        
-        
-    ],
-    "donate":[
-        "https://www.globalgiving.org/projects/protect-the-malayan-tiger-and-restore-its-habitat/donate/",
-        "https://www.wwf.org.my/how_you_can_help/donate_now/save_our_malayan_tigers/"
-
-    ]
-  },
-  {
-    "animal": "Malayan Tiger",
-    "countries": [
-        {
-            "country": "Malaysia",
-            "population": 200
-        }
-
-    ],
-    "img":"https://s28164.pcdn.co/files/Berani5.jpg",
-    "info":[
-        "https://en.wikipedia.org/wiki/Malayan_tiger",
-        "https://www.britannica.com/animal/Malayan-tiger",
-        
-        
-    ],
-    "donate":[
-        "https://www.globalgiving.org/projects/protect-the-malayan-tiger-and-restore-its-habitat/donate/",
-        "https://www.wwf.org.my/how_you_can_help/donate_now/save_our_malayan_tigers/"
-
-    ]
-  },
-  {
-    "animal": "Mountain Gorilla",
-    "countries": [
-        {
-            "country": "CD",
-            // Congo/Congo (Democratic Republic of the)/Democratic Republic of the Congo doesn't work
-            "population": 1000
-        }
-    ],
-    "img":"https://files.worldwildlife.org/wwfcmsprod/images/Mountain_Gorilla_Silverback_WW22557/hero_small/4vzzw2piv9_Mountain_Gorilla_Silverback_WW22557.jpg",
-    //find a good image of species on web, right click, 'copy image link' or 'open image in new tab', make sure its just an image and black background, not a site and paste link here
-    "info":[
-        "https://en.wikipedia.org/wiki/Gorilla",
-        "https://www.worldwildlife.org/species/gorilla",
-        "https://www.britannica.com/animal/Gorilla-primate-genus",
-    ],
-    "donate":[
-        "https://gorillafund.org/get-involved/",
-        "https://www.gorillas.org/donate/",
-        "https://gifts.worldwildlife.org/gift-center/gifts/species-adoptions/gorilla.aspx",
-        "https://gracegorillas.org/grace-save-a-gorilla/"
-    ]
-  }
+	{
+	"animal": "Mountain Gorilla",
+	"countries": [
+		{
+			"country": "CD",
+			// Congo/Congo (Democratic Republic of the)/Democratic Republic of the Congo doesn't work
+			"population": 1000
+		}
+	],
+	"img":"https://files.worldwildlife.org/wwfcmsprod/images/Mountain_Gorilla_Silverback_WW22557/hero_small/4vzzw2piv9_Mountain_Gorilla_Silverback_WW22557.jpg",
+	//find a good image of species on web, right click, 'copy image link' or 'open image in new tab', make sure its just an image and black background, not a site and paste link here
+	"info":[
+		"https://en.wikipedia.org/wiki/Gorilla",
+		"https://www.worldwildlife.org/species/gorilla",
+		"https://www.britannica.com/animal/Gorilla-primate-genus",
+	],
+	"donate":[
+		"https://gorillafund.org/get-involved/",
+		"https://www.gorillas.org/donate/",
+		"https://gifts.worldwildlife.org/gift-center/gifts/species-adoptions/gorilla.aspx",
+		"https://gracegorillas.org/grace-save-a-gorilla/"
+	]
+	}
   
 ]
 
@@ -305,9 +273,8 @@ document.getElementById("list").innerHTML = "";
 
 for (var i = 0; i < species.length; ++i) {
     document.getElementById("list").innerHTML += "<a href='javascript:drawSpecies(" + i + ")' class='link-item'>" + species[i].animal + "</a>";
-    console.log(species[i].info)
-    document.getElementById("info").innerHTML = "Research links \n" + species[i].info
 }
+
 
 google.charts.load('current', {
     'packages':['geochart'],
@@ -352,5 +319,7 @@ google.charts.load('current', {
     var data = google.visualization.arrayToDataTable(pop);
     var options = {};
     var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
-    chart.draw(data, options);
+    console.log('hi');
+	document.getElementById("info").innerHTML = "Research links \n" + species[animal].info;
+	chart.draw(data, options);
   }
