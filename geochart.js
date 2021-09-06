@@ -219,28 +219,49 @@ var species = [
 	]
     }, 
 	{
-		"animal": "Malayan Tiger",
+		"animal": "Tooth Billed Pigeon",
 		"countries": [
 			{
-				"country": "Malaysia",
-				"population": 200
+				"country": "Samoa",
+				"population": 300
 			}
 
 		],
-		"img":"https://s28164.pcdn.co/files/Berani5.jpg",
+		"img":"https://www.edgeofexistence.org/wp-content/uploads/2017/06/Didunculus_strigirostris_xlarge2.jpg",
 		"info":[
-			"https://en.wikipedia.org/wiki/Malayan_tiger",
-			"https://www.britannica.com/animal/Malayan-tiger",
+			"https://en.wikipedia.org/wiki/Tooth-billed_pigeon",
+			"http://www.edgeofexistence.org/species/tooth-billed-pigeon/",
 			
 			
 		],
 		"donate":[
-			"https://www.globalgiving.org/projects/protect-the-malayan-tiger-and-restore-its-habitat/donate/",
-			"https://www.wwf.org.my/how_you_can_help/donate_now/save_our_malayan_tigers/"
+			"https://www.conservationleadershipprogramme.org/project/samoan-dodo-manumea/"
+			
 
 		]
 	},
+	{
+		"animal": "Tooth Billed Pigeon",
+		"countries": [
+			{
+				"country": "Samoa",
+				"population": 300
+			}
 
+		],
+		"img":"https://www.edgeofexistence.org/wp-content/uploads/2017/06/Didunculus_strigirostris_xlarge2.jpg",
+		"info":[
+			"https://en.wikipedia.org/wiki/Tooth-billed_pigeon",
+			"http://www.edgeofexistence.org/species/tooth-billed-pigeon/",
+			
+			
+		],
+		"donate":[
+			"https://www.conservationleadershipprogramme.org/project/samoan-dodo-manumea/",
+			
+
+		]
+	},
 	{
 	"animal": "Mountain Gorilla",
 	"countries": [
@@ -320,6 +341,15 @@ google.charts.load('current', {
     var options = {};
     var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
     console.log('hi');
-	document.getElementById("info").innerHTML = "Research links \n" + species[animal].info;
+	// document.getElementById("info").innerHTML = "Research links \n" + species[animal].info;
+    document.getElementById("info").innerHTML = "<img src='" + species[animal].img + "' style='width:30%'> <br>";
+    document.getElementById("info").innerHTML += "Research links: <br>";
+    for (var i=0; i<species[animal].info.length; i++) {
+        document.getElementById("info").innerHTML += "<a href=" + species[animal].info[i] + ">" + species[animal].info[i] + "</a><br>";
+    }
+    document.getElementById("info").innerHTML += "Donate links: <br>";
+    for (var i=0; i<species[animal].donate.length; i++) {
+        document.getElementById("info").innerHTML += "<a href=" + species[animal].donate[i] + ">" + species[animal].donate[i] + "</a><br>";
+    }
 	chart.draw(data, options);
   }
