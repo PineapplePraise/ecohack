@@ -37,11 +37,11 @@ var species = [
     ]
   },
   {
-    "animal": "Sea Turtles",
+    "animal": "Malayan Tiger",
     "countries": [
         {
-            "country": "Costa Rica",
-            "population": 550000
+            "country": "Malaysia",
+            "population": 200
         },
         {
             "country": "Mexico",
@@ -92,7 +92,7 @@ var species = [
 document.getElementById("list").innerHTML = "";
 
 for (var i = 0; i < species.length; ++i) {
-    document.getElementById("list").innerHTML += "<a href='#' class='link-item'>" + species[i].animal + "</a>";
+    document.getElementById("list").innerHTML += "<a href='javascript:drawSpecies(" + i + ")' class='link-item'>" + species[i].animal + "</a>";
 }
 
 // for (i = 0; i < species.length; i++) {
@@ -113,7 +113,7 @@ google.charts.load('current', {
   function drawRegionsMap() {
     var data = google.visualization.arrayToDataTable([
       ['Country', 'Population'],
-      ['United States', 100]
+    //   ['United States', 100]
     //   ['Germany', 200],
     //   ['United States', 300],
     //   ['Brazil', 400],
@@ -130,4 +130,20 @@ google.charts.load('current', {
     var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
 
     chart.draw(data, options);
+  }
+
+  function drawSpecies(animal) {
+    var pop = [
+        ['Country', 'Population']
+    ];
+
+    for (var i=0; i<species[animal].countries.length; i++){
+        pop.push([species[animal].countries[i].country, species[animal].countries[i].population]);
+    }
+
+    var data = google.visualization.arrayToDataTable(pop);
+    var options = {};
+    var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
+    chart.draw(data, options);
+
   }
