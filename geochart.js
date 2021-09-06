@@ -241,23 +241,24 @@ var species = [
 		]
 	},
 	{
-		"animal": "Tooth Billed Pigeon",
+		"animal": "Giant Panda",
 		"countries": [
 			{
-				"country": "Samoa",
-				"population": 300
+				"country": "China",
+				"population": 1800
 			}
 
 		],
-		"img":"https://www.edgeofexistence.org/wp-content/uploads/2017/06/Didunculus_strigirostris_xlarge2.jpg",
+		"img":"https://www.rd.com/wp-content/uploads/2020/03/GettyImages-1060486568.jpg",
 		"info":[
-			"https://en.wikipedia.org/wiki/Tooth-billed_pigeon",
-			"http://www.edgeofexistence.org/species/tooth-billed-pigeon/",
+			"https://www.worldwildlife.org/species/giant-panda",
+			"https://en.wikipedia.org/wiki/Giant_panda",
 			
 			
 		],
 		"donate":[
-			"https://www.conservationleadershipprogramme.org/project/samoan-dodo-manumea/",
+			"https://gifts.worldwildlife.org/gift-center/gifts/species-adoptions/panda.aspx",
+            "https://wwf.panda.org/discover/knowledge_hub/endangered_species/giant_panda/whatyoucando/"
 			
 
 		]
