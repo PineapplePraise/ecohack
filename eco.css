@@ -1,3 +1,9 @@
+.list {
+    width:700px;
+    padding:0px;
+    margin:0px;
+}
+
 .window {
     height: 8em;
     overflow: auto;
@@ -9,3 +15,4 @@
 .link-item {
     margin-right: 10px;
 }
+

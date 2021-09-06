@@ -17,7 +17,22 @@ var species = [
             "country": "Kenya",
             "population": 1258
         }
+    ],
+    "img":"https://files.worldwildlife.org/wwfcmsprod/images/Mountain_Gorilla_Silverback_WW22557/hero_small/4vzzw2piv9_Mountain_Gorilla_Silverback_WW22557.jpg",
+    //find a good image of species on web, right click, 'copy image link' or 'open image in new tab', make sure its just an image and black background, not a site and paste link here
+    "info":[
+        "https://en.wikipedia.org/wiki/Gorilla",
+        "https://www.worldwildlife.org/species/gorilla",
+        "https://www.britannica.com/animal/Gorilla-primate-genus",
+    ],
+    "donate":[
+        "https://gorillafund.org/",
+        "https://gorillafund.org/get-involved/",
+        "https://www.gorillas.org/donate/",
+        "https://gifts.worldwildlife.org/gift-center/gifts/species-adoptions/gorilla.aspx",
+        "https://gracegorillas.org/grace-save-a-gorilla/"
     ]
+    //learn more/research and donate links. if its taking over 2 minutes to get this many links, you are probably not doing it right and please let me know. it shouldn't be difficult.
   },
   {
     "animal": "Sea Turtles",
@@ -42,48 +57,26 @@ var species = [
         {
             "country": "Malaysia",
             "population": 200
-        },
-        {
-            "country": "Mexico",
-            "population": 450000
-        },
-        {
-            "country": "India",
-            "population": 135000
         }
+
     ]
   },
   {
-    "animal": "Sea Turtles",
+    "animal": "Asian Elephant",
     "countries": [
         {
             "country": "Costa Rica",
             "population": 550000
-        },
-        {
-            "country": "Mexico",
-            "population": 450000
-        },
-        {
-            "country": "India",
-            "population": 135000
         }
     ]
   },
   {
-    "animal": "Sea Turtles",
+    "animal": "Mountain Gorilla",
     "countries": [
         {
-            "country": "Costa Rica",
-            "population": 550000
-        },
-        {
-            "country": "Mexico",
-            "population": 450000
-        },
-        {
-            "country": "India",
-            "population": 135000
+            "country": "CD",
+            // Congo/Congo (Democratic Republic of the)/Democratic Republic of the Congo doesn't work
+            "population": 1000
         }
     ]
   }
@@ -95,19 +88,11 @@ for (var i = 0; i < species.length; ++i) {
     document.getElementById("list").innerHTML += "<a href='javascript:drawSpecies(" + i + ")' class='link-item'>" + species[i].animal + "</a>";
 }
 
-// for (i = 0; i < species.length; i++) {
-//   var node = document.createElement("a");
-//   var space = document.createTextNode(" ");
-//   node.innerHTML = species[i].animal;
-//   node.onclick = "drawRegionsMap(" + i + ")"; //drawRegionsMap( value of i );
-//   node.onclick = ;
-//   document.getElementById("list").appendChild(node);
-//   document.getElementById("list").appendChild(space);
-// }
-
 google.charts.load('current', {
     'packages':['geochart'],
   });
+
+
   google.charts.setOnLoadCallback(drawRegionsMap);
 
   function drawRegionsMap() {
@@ -122,15 +107,16 @@ google.charts.load('current', {
     //   ['Russia', 700],
     //   ['Australia', 600]
     ]);
-
     
 
     var options = {};
 
     var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
-
+    
     chart.draw(data, options);
+
   }
+  
 
   function drawSpecies(animal) {
     var pop = [
@@ -145,5 +131,5 @@ google.charts.load('current', {
     var options = {};
     var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
     chart.draw(data, options);
-
+    
   }
