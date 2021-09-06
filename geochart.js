@@ -208,7 +208,7 @@ var species = [
     ],
     "img":"https://wwfint.awsassets.panda.org/img/saola_dhulse47098_352248.jpg",
     "info":[
-        "https://en.wikipedia.org/wiki/Saola#:~:text=The%20saola%20(Pseudoryx%20nghetinhensis)%2C,Range%20of%20Vietnam%20and%20Laos.",
+        "https://en.wikipedia.org/wiki/Saola",
         "https://www.worldwildlife.org/species/saola",
         
         
